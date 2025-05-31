@@ -13,7 +13,7 @@ st.title("Video O'yin Sotuvlari Tahlili va Bashorat")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("vgsales.csv")
+    df = pd.read_csv("data/vgsales.csv")
     return df
 
 df = load_data()
